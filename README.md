@@ -31,34 +31,3 @@ This project is a platform for analyzing Instagram data. It includes data collec
    ```bash
    git clone https://github.com/your_username/instagram-analysis-platform.git
    cd instagram-analysis-platform
-
-Project Structure
-
-instagram_analysis/
-│
-├── data_collection/
-│   ├── instagram_api.py   # Scripts for collecting data from Instagram
-│   └── utils.py           # Utility functions
-│
-├── data_processing/
-│   ├── etl.py             # ETL (Extract, Transform, Load) processes
-│   └── data_cleaning.py   # Data cleaning and preparation
-│
-├── analysis/
-│   ├── sentiment_analysis.py  # Sentiment analysis
-│   └── trend_analysis.py      # Trend analysis and visualization
-│
-├── web_interface/
-│   ├── app/
-│   │   ├── models.py        # Flask data models
-│   │   ├── views.py         # Flask views
-│   │   └── templates/       # HTML templates
-│   ├── manage.py            # Script to run the web application
-│   └── requirements.txt     # Flask dependencies
-│
-├── notifications/
-│   └── email_notifier.py    # Script for sending email notifications
-│
-└── deployment/
-    ├── Dockerfile           # Dockerfile for containerization
-    └── heroku.yml           # Configuration for Heroku
